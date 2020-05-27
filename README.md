@@ -1,4 +1,4 @@
-# Rust Learning Group 🦀🦀🦀 📖
+# Welcome to the Rust Learning Group 🦀🦀🦀 📖
 
 This is the Home for the Rust Learning Group - the group will organize meetings, workshops and online streams here and share information about their learnings.   
 

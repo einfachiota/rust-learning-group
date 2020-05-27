@@ -1,7 +1,7 @@
 # Summary
 
-- [README](./README.md)
-- [Learning List](./src/01_learning-list.md)
-- [Members](./src/02_members.md)
+- [Welcome](./README.md)
+- [Guide](./guide/README.md)
+- [Members](./members/README.md)
 - [Mentors](./mentors/README.md)
     - [nothingismagick](./mentors/nothingismagick.md)
