@@ -1,5 +1,5 @@
 # 👋 Welcome to the Rust Learning Group 
-🦀🦀🦀 📖
+🦀🦀🦀 📖 <- A group of [Crabs](https://www.rustacean.net/) reading a Book.
 
 This is the Home for the Rust Learning Group - the group will organize meetings, workshops and online streams here and share information about their learnings.   
 
