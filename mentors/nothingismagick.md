@@ -13,7 +13,7 @@ Video, Audio
 Talking about opinions
 
 # Introduction
-Daniel works at the IOTA Foundation as Senior Architect in the Engineering department. In this role, Daniel is focused on hardening the security posture of the IOTA ecosystem and designing the next generation of wallets. His main project is “Stronghold” - an advanced system for protecting private keys and seeds.
+Daniel works at the IOTA Foundation as Senior Architect in the Engineering department. In this role, Daniel is focused on hardening the security posture of the IOTA ecosystem and designing the next generation of wallets. His main project is an advanced system for protecting private keys and seeds.
 
 He is also a champion for open source and contributes to a number of projects, most notably as core-member of the open source project [Tauri](https://tauri.studio), which is a framework for building smaller, faster and more secure native applications using Rust and Webtech.
 
