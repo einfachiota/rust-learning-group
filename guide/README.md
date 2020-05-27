@@ -8,3 +8,13 @@
 - [rustlings](https://github.com/rust-lang/rustlings): Small interactive exercises to get you used to reading and writing Rust code! 
 
 - [The Rust Programming Language Book](https://doc.rust-lang.org/book/): Online book with alot of information and sample projects.
+
+## Awesome lists
+Awesome list are repositories with a lot of awesome resources as links about their topic.
+
+[**Awesome Rust**](https://github.com/rust-unofficial/awesome-rust)
+A curated list of Rust code and resources.
+
+[**Awesome Rust & IOTA**](./awesome-rust-iota.md)
+This list contains everything Rust and IOTA related.
+
