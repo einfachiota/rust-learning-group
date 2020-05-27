@@ -15,4 +15,4 @@ Testing
 Creative Coding
 Video, Audio
 Talking about opinions
-* [Mentor Page](./nothingismagick)
+* [Read Introduction](./nothingismagick.md)

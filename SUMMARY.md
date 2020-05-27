@@ -4,3 +4,4 @@
 - [Learning List](./src/01_learning-list.md)
 - [Members](./src/02_members.md)
 - [Mentors](./mentors/README.md)
+    - [nothingismagick](./mentors/nothingismagick.md)
