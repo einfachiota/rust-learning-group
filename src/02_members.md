@@ -15,6 +15,3 @@ NewBees are new to Rust and help each other by problems.
 - <a href="https://github.com/meo-rust" target="_blank">meo-rust</a> | Meo#1494
 - <a href="https://github.com/Thoralf-M" target="_blank">Thoralf-M</a> | Thoralf#3558
 
-## Mentors
-
-Mentors are familiar with Rust and help NewBees by Problems, which they can't find out together.
