@@ -1,4 +1,4 @@
-# Guide
+# 📖 Guide
 
 ## Beginner Basics
 - [Rust in Motion](https://livevideo.manning.com/course/42/rust-in-motion): Video Series with some free videos for the basics. Full Course: $27.99 

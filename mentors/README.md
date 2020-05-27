@@ -1,4 +1,4 @@
-# Mentors
+# 👑 Mentors
 
 Mentors are familiar with Rust and help NewBees by Problems, which they can't find out together.
 
