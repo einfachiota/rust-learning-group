@@ -6,9 +6,14 @@ In addition to [ 🕶 Awesome Rust & IOTA](./awesome-rust-iota.md), feel free to
 
 Find a good resource on any topics below, or want to add? Share the love and contribute by turning a topic into a URL link. Don't forget to make a PR! 
 
+Good resources are/have:
+- Videos or Articles
+- Clear & Concise instructions and explanations
+- Topic coverage: Mutually Exclusive, Collectively Exhaustive
+
 ### Introduction
 
-- Installing and configuring Rust.
+- Installing and configuring Rust. <a href="https://www.youtube.com/watch?v=sttBlIG9Tbo" target="_blank">[ MacOS ]</a>[ Windows ][ Ubuntu ]
 - Configuring Rust with your IDE.
 - Setting up Cargo, the Rust package manager.
 
