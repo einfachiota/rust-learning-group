@@ -33,3 +33,7 @@ IOTA Streams, a framework for cryptographic protocols called Applications.
 A narrow high level API for IOTA streams with Tangle as transport
 
 **Repository** [https://github.com/iota-community/iota-channels-lite](https://github.com/iota-community/iota-channels-lite)
+
+**Videos**
+- [IEN Workshops: from MAM to Streams](https://www.youtube.com/watch?v=EycFnTG748c)
+- [1. IEN Talks: Introduction to IOTA Streams by Vlad Semenov](https://www.youtube.com/watch?v=jDCMuML1QBo)
