@@ -15,6 +15,9 @@ Awesome list are repositories with a lot of awesome resources as links about the
 [**Awesome Rust**](https://github.com/rust-unofficial/awesome-rust)
 A curated list of Rust code and resources.
 
+[**rust-learning**](https://github.com/ctjhoa/rust-learning#locale-links)
+A bunch of links to blog posts, articles, videos, etc for learning Rust.
+
 [**Awesome Rust & IOTA**](./awesome-rust-iota.md)
 This list contains everything Rust and IOTA related.
 
