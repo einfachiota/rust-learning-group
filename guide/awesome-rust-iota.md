@@ -37,3 +37,4 @@ A narrow high level API for IOTA streams with Tangle as transport
 **Videos**
 - [IEN Workshops: from MAM to Streams](https://www.youtube.com/watch?v=EycFnTG748c)
 - [1. IEN Talks: Introduction to IOTA Streams by Vlad Semenov](https://www.youtube.com/watch?v=jDCMuML1QBo)
+- [IOTA Experience Teams Kickoff - IOTA Streams Explanation by Vlad Semenov](https://www.youtube.com/watch?v=WmmSS9Uet9w)
