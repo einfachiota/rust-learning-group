@@ -11,6 +11,24 @@
     - [x] variables4
     - [x] variables5
     - [x] variables6
-- [ ] if 
-    - [ ] if1
-    - [ ] if2
+- [x] if 
+    - [x] if1
+    - [x] if2
+- [x] functions
+    - [x] functions1
+    - [x] functions2
+    - [x] functions3
+    - [x] functions4
+    - [x] functions5
+- [x] quiz1
+- [x] primitive_types
+    - [x] primitive_types1
+    - [x] primitive_types2
+    - [x] primitive_types3
+    - [x] primitive_types4
+    - [x] primitive_types5
+    - [x] primitive_types6
+- [ ] structs
+    - [ ] structs1
+    - [ ] structs2
+    - [ ] structs3
