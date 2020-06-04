@@ -32,3 +32,6 @@
     - [ ] structs1
     - [ ] structs2
     - [ ] structs3
+- [ ] strings
+    - [ ] strings1
+    - [ ] strings2

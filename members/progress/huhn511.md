@@ -28,7 +28,10 @@
     - [x] primitive_types4
     - [x] primitive_types5
     - [x] primitive_types6
-- [ ] structs
-    - [ ] structs1
-    - [ ] structs2
-    - [ ] structs3
+- [x] structs
+    - [x] structs1
+    - [x] structs2
+    - [x] structs3
+- [ ] strings
+    - [ ] strings1
+    - [ ] strings2
