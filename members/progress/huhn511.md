@@ -32,6 +32,49 @@
     - [x] structs1
     - [x] structs2
     - [x] structs3
-- [ ] strings
-    - [ ] strings1
-    - [ ] strings2
+- [x] strings
+    - [x] strings1
+    - [x] strings2
+- [x] quiz2
+- [x] emums
+    - [x] emums1
+    - [x] emums2
+    - [x] emums3
+- [x] tests
+    - [x] tests1
+    - [x] tests2
+    - [x] tests3
+- [x] quiz3
+- [x] modules
+    - [x] modules1
+    - [x] modules2
+- [x] macros
+    - [x] macros1
+    - [x] macros2
+    - [x] macros3
+    - [x] macros4
+- [x] quiz4
+- [x] move_semantics
+    - [x] move_semantics1
+    - [x] move_semantics2
+    - [x] move_semantics3
+    - [x] move_semantics4
+- [x] error_handling
+    - [x] errors1
+    - [x] errors2
+    - [x] errors3
+    - [x] errorsn
+- [x] option
+    - [x] option1
+    - [x] option2
+- [x] error_handling
+    - [x] result1
+- [ ] clippy
+    - [ ] clippy1
+    - [ ] clippy2
+- [ ] standard_library_types  
+    - [ ] arc1
+    - [ ] iterators2
+    - [ ] iterators3
+    - [ ] iterators4
+
