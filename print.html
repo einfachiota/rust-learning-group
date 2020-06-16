@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 👋 Welcome</a></li><li class="chapter-item expanded "><a href="guide/index.html"><strong aria-hidden="true">2.</strong> 📖 Guide</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="guide/awesome-rust-iota.html"><strong aria-hidden="true">2.1.</strong> 🕶 Awesome Rust &amp; IOTA</a></li><li class="chapter-item expanded "><a href="guide/learning-outcomes.html"><strong aria-hidden="true">2.2.</strong> 📚 Learning Outcomes </a></li></ol></li><li class="chapter-item expanded "><a href="news/index.html"><strong aria-hidden="true">3.</strong> 📢 News</a></li><li class="chapter-item expanded "><a href="members/index.html"><strong aria-hidden="true">4.</strong> 🎓 Members</a></li><li class="chapter-item expanded "><a href="mentors/index.html"><strong aria-hidden="true">5.</strong> 👑 Mentors</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mentors/nothingismagick.html"><strong aria-hidden="true">5.1.</strong> nothingismagick</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 👋 Welcome</a></li><li class="chapter-item expanded "><a href="guide/index.html"><strong aria-hidden="true">2.</strong> 📖 Guide</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="guide/awesome-rust-iota.html"><strong aria-hidden="true">2.1.</strong> 🕶 Awesome Rust &amp; IOTA</a></li><li class="chapter-item expanded "><a href="guide/learning-outcomes.html"><strong aria-hidden="true">2.2.</strong> 📚 Learning Outcomes </a></li><li class="chapter-item expanded "><a href="guide/guide.html"><strong aria-hidden="true">2.3.</strong> 📙 Guide </a></li></ol></li><li class="chapter-item expanded "><a href="news/index.html"><strong aria-hidden="true">3.</strong> 📢 News</a></li><li class="chapter-item expanded "><a href="members/index.html"><strong aria-hidden="true">4.</strong> 🎓 Members</a></li><li class="chapter-item expanded "><a href="mentors/index.html"><strong aria-hidden="true">5.</strong> 👑 Mentors</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mentors/nothingismagick.html"><strong aria-hidden="true">5.1.</strong> nothingismagick</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -288,6 +288,36 @@ This list contains everything Rust and IOTA related.</p>
 <li>Building Modules &amp; Crates</li>
 <li>Testing</li>
 <li>Commenting &amp; Documentation</li>
+</ul>
+<h1><a class="header" href="#-guide-1" id="-guide-1">📙 Guide</a></h1>
+<h2><a class="header" href="#types--variables-1" id="types--variables-1">Types &amp; Variables</a></h2>
+<h3><a class="header" href="#core-data-types" id="core-data-types">Core Data Types</a></h3>
+<h4><a class="header" href="#integer" id="integer">Integer</a></h4>
+<pre><pre class="playpen"><code class="language-rust">fn main() {
+
+    let integer = 42;
+    println!(&quot;{}&quot;, integer);
+
+    let integer2: u32 = &quot;42&quot;.parse().expect(&quot;Not a number!&quot;);
+    println!(&quot;{}&quot;, integer2);
+
+}
+</code></pre></pre>
+<h4><a class="header" href="#floating-point" id="floating-point">Floating-Point</a></h4>
+<pre><pre class="playpen"><code class="language-rust">fn main() {
+
+    let float = 42.0; // f64
+    println!(&quot;{}&quot;, float);
+
+    let float2: f32 = 4.2; // f32
+    println!(&quot;{}&quot;, float2);
+}
+</code></pre></pre>
+<ul>
+<li>Operators</li>
+<li>Scope &amp; Shadowing</li>
+<li>Declaring &amp; Using Constants</li>
+<li>Stacks &amp; Heaps</li>
 </ul>
 <h1><a class="header" href="#-news" id="-news">📢 News</a></h1>
 <p>You can read the latest news on <a href="https://medium.com/rust-learning-group">our Medium Blog</a>.</p>
