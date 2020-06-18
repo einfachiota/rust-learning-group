@@ -6,6 +6,8 @@
     - [📚 Learning Outcomes ](./guide/learning-outcomes.md)
     - [📙 Guide ](./guide/guide.md)
 - [📢 News](./news/README.md)
+- [🎯 Goals](./goals/README.md)
+- [👷 Projects](./projects/README.md)
 - [🎓 Members](./members/README.md)
 - [👑 Mentors](./mentors/README.md)
     - [nothingismagick](./mentors/nothingismagick.md)
