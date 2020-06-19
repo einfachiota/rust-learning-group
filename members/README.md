@@ -15,5 +15,3 @@ NewBees are new to Rust and help each other by problems.
 - <a href="https://github.com/meo-rust" target="_blank">meo-rust</a> | Meo#1494
 - <a href="https://github.com/Thoralf-M" target="_blank">Thoralf-M</a> | Thoralf#3558
 - <a href="https://github.com/vanbak" target="_blank">vanbak</a> | vanbak#7849
-
-
