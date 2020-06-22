@@ -8,3 +8,7 @@
 - [ ] WASM / WASI IOTA Wallet
 - [ ] Web Spammer for IOTA Network Spamtests
 - [ ] IOTA Stream Explorer
+
+## Mobile
+- [ ] App Interface/Library for iOS
+- [ ] App Interface/Library for Android

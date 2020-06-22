@@ -1,0 +1,52 @@
+## Rustlings
+[Repo](https://github.com/vanbak/rustlings)
+
+### Content
+- [X] Getting Started
+    - [X] About
+    - [X] Installation
+    - [X] Hello Worlds
+- [X] Variables
+    - [X] Intro
+    - [X] Variables and Mutability
+    - [X] Variables 1
+    - [X] Differences Between Variables and Constants
+    - [X] Shaddowing
+    - [X] Variables 2
+    - [X] Variables 3
+    - [X] Variables 4
+- [X] Data Types
+    - [X] Scalar Types
+    - [X] Boolean
+    - [X] Characters
+    - [X] Compound Types
+    - [X] Arrays
+    - [X] Slices
+    - [X] Tuples
+    - [X] Tuple Index
+- [ ] Functions
+    - [ ] Intro
+    - [ ] Statements and Expressions
+    - [ ] Defining a Function
+    - [ ] Type Annotation of a Parameter
+    - [ ] Passing an Argument
+    - [ ] Return Type
+    - [ ] Return a Value
+- [ ] if 
+    - [ ] if1
+    - [ ] if2
+- [ ] quiz1
+- [ ] primitive_types
+    - [ ] primitive_types1
+    - [ ] primitive_types2
+    - [ ] primitive_types3
+    - [ ] primitive_types4
+    - [ ] primitive_types5
+    - [ ] primitive_types6
+- [ ] structs
+    - [ ] structs1
+    - [ ] structs2
+    - [ ] structs3
+- [ ] strings
+    - [ ] strings1
+    - [ ] strings2
