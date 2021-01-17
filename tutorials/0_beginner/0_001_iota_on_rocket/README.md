@@ -1,4 +1,4 @@
-# To the Moon - Setup and IOTA.rs project with Rocket.
+# To the Moon - Setup an IOTA.rs with Rocket
 
 **Short Description:**
 Build a small web backend wich returns the current balance of an IOTA address.
