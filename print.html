@@ -7,22 +7,36 @@
         
         <meta name="robots" content="noindex" />
         
+        
+
+
+        <!-- Custom HTML head -->
+        
+
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
         <link rel="shortcut icon" href="favicon.png">
+        
         <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
+        
         <link rel="stylesheet" href="css/print.css" media="print">
+        
 
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
 
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
@@ -38,7 +52,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -83,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 👋 Welcome</a></li><li class="chapter-item expanded "><a href="guide/index.html"><strong aria-hidden="true">2.</strong> 📖 Guide</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="guide/awesome-rust-iota.html"><strong aria-hidden="true">2.1.</strong> 🕶 Awesome Rust &amp; IOTA</a></li><li class="chapter-item expanded "><a href="guide/learning-outcomes.html"><strong aria-hidden="true">2.2.</strong> 📚 Learning Outcomes </a></li><li class="chapter-item expanded "><a href="guide/guide.html"><strong aria-hidden="true">2.3.</strong> 📙 Guide </a></li></ol></li><li class="chapter-item expanded "><a href="news/index.html"><strong aria-hidden="true">3.</strong> 📢 News</a></li><li class="chapter-item expanded "><a href="goals/index.html"><strong aria-hidden="true">4.</strong> 🎯 Goals</a></li><li class="chapter-item expanded "><a href="projects/index.html"><strong aria-hidden="true">5.</strong> 👷 Projects</a></li><li class="chapter-item expanded "><a href="members/index.html"><strong aria-hidden="true">6.</strong> 🎓 Members</a></li><li class="chapter-item expanded "><a href="mentors/index.html"><strong aria-hidden="true">7.</strong> 👑 Mentors</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mentors/nothingismagick.html"><strong aria-hidden="true">7.1.</strong> nothingismagick</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 👋 Welcome</a></li><li class="chapter-item expanded "><a href="guide/index.html"><strong aria-hidden="true">2.</strong> 📖 Guide</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="guide/awesome-rust-iota.html"><strong aria-hidden="true">2.1.</strong> 🕶 Awesome Rust &amp; IOTA</a></li><li class="chapter-item expanded "><a href="guide/learning-outcomes.html"><strong aria-hidden="true">2.2.</strong> 📚 Learning Outcomes </a></li><li class="chapter-item expanded "><a href="guide/guide.html"><strong aria-hidden="true">2.3.</strong> 📙 Guide </a></li></ol></li><li class="chapter-item expanded "><a href="news/index.html"><strong aria-hidden="true">3.</strong> 📢 News</a></li><li class="chapter-item expanded "><a href="goals/index.html"><strong aria-hidden="true">4.</strong> 🎯 Goals</a></li><li class="chapter-item expanded "><a href="tutorials/index.html"><strong aria-hidden="true">5.</strong> 👷 Tutorials</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tutorials/0_beginner/index.html"><strong aria-hidden="true">5.1.</strong> Beginner</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tutorials/0_beginner/0_001_iota_on_rocket/index.html"><strong aria-hidden="true">5.1.1.</strong> To the Moon - Setup and IOTA.rs project with Rocket</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="members/index.html"><strong aria-hidden="true">6.</strong> 🎓 Members</a></li><li class="chapter-item expanded "><a href="mentors/index.html"><strong aria-hidden="true">7.</strong> 👑 Mentors</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mentors/nothingismagick.html"><strong aria-hidden="true">7.1.</strong> nothingismagick</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -118,9 +132,11 @@
                     <h1 class="menu-title">rust-learning-group</h1>
 
                     <div class="right-buttons">
+                        
                         <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
+                        
                         
                     </div>
                 </div>
@@ -310,7 +326,7 @@ This list contains everything Rust and IOTA related.</p>
 <h2><a class="header" href="#types--variables-1" id="types--variables-1">Types &amp; Variables</a></h2>
 <h3><a class="header" href="#core-data-types" id="core-data-types">Core Data Types</a></h3>
 <h4><a class="header" href="#integer" id="integer">Integer</a></h4>
-<pre><pre class="playpen"><code class="language-rust">fn main() {
+<pre><pre class="playground"><code class="language-rust">fn main() {
 
     let integer = 42;
     println!(&quot;{}&quot;, integer);
@@ -321,7 +337,7 @@ This list contains everything Rust and IOTA related.</p>
 }
 </code></pre></pre>
 <h4><a class="header" href="#floating-point" id="floating-point">Floating-Point</a></h4>
-<pre><pre class="playpen"><code class="language-rust">fn main() {
+<pre><pre class="playground"><code class="language-rust">fn main() {
 
     let float = 42.0; // f64
     println!(&quot;{}&quot;, float);
@@ -370,12 +386,54 @@ App Interface/Library for iOS</li>
 <li><input disabled="" type="checkbox"/>
 App Interface/Library for Android</li>
 </ul>
-<h1><a class="header" href="#projects" id="projects">Projects</a></h1>
-<p>The Learning Group create new projects to improve the learning experience.</p>
-<p>The folloing projects are currently in progress:</p>
+<h1><a class="header" href="#tutorials" id="tutorials">Tutorials</a></h1>
+<p>The Learning Group create new tutorials to improve the learning experience.</p>
+<p>Tutorials have <strong>three</strong> difficuties:</p>
 <ul>
-<li><a href="https://github.com/rust-iota/iota-streams-api">IOTA Streams API</a></li>
+<li>Level 0 - Beginner</li>
+<li>Level 1 - Advanced</li>
+<li>Level 2 - Expert</li>
 </ul>
+<h2><a class="header" href="#beginner" id="beginner">Beginner</a></h2>
+<p>This tutorials are for people. which has 0 expirence with Rust nor programming.</p>
+<ul>
+<li><a href="tutorials//tutorials/0_beginner/0_001_iota_on_rocket">To the Moon - Setup and IOTA.rs project with Rocket.</a></li>
+</ul>
+<h2><a class="header" href="#advanced" id="advanced">Advanced</a></h2>
+<p>For developers, which has some expirence with Rust.</p>
+<h2><a class="header" href="#expert" id="expert">Expert</a></h2>
+<p>This level is for passionate and professional Rust developers.</p>
+<h2><a class="header" href="#beginner-1" id="beginner-1">Beginner</a></h2>
+<p>This tutorials are for people. which has 0 expirence with Rust nor programming.</p>
+<ul>
+<li><a href="tutorials/0_beginner//tutorials/0_beginner/0_001_iota_on_rocket">To the Moon - Setup and IOTA.rs project with Rocket.</a></li>
+</ul>
+<h1><a class="header" href="#to-the-moon---setup-and-iotars-project-with-rocket" id="to-the-moon---setup-and-iotars-project-with-rocket">To the Moon - Setup and IOTA.rs project with Rocket.</a></h1>
+<p><strong>Short Description:</strong>
+Build a small web backend wich returns the current balance of an IOTA address.</p>
+<p><strong>Live Demo:</strong> <a href="https://iota-chrysalis.herokuapp.com/iot1qxt0nhsf38nh6rs4p6zs5knqp6psgha9wsv74uajqgjmwc75ugupxgecea4">here</a>.</p>
+<p><strong>Link to Code:</strong> </p>
+<p><strong>Using:</strong></p>
+<ul>
+<li><a href="https://rocket.rs/">Rocket</a></li>
+<li><a href="https://github.com/iotaledger/iota.rs">iota.rs</a></li>
+</ul>
+<h2><a class="header" href="#introduction-1" id="introduction-1">Introduction</a></h2>
+<p><a href="https://rocket.rs/"><strong>Rocket</strong></a>
+Rocket is a web framework for Rust that makes it simple to write fast, secure web applications without sacrificing flexibility, usability, or type safety.</p>
+<p><a href="https://github.com/iotaledger/iota.rs"><strong>iota.rs</strong></a>
+Rust library to interact with the Tangle through IOTA Nodes.</p>
+<p>With combination of these two libraries we can build a an endpont of an Web Backend Application, which returns the current value of an IOTA address.</p>
+<h2><a class="header" href="#instructions" id="instructions">Instructions</a></h2>
+<p>Create a new Rust application.</p>
+<pre><code class="language-bash">cargo new rocket-iota-demo --bin
+</code></pre>
+<p>Install Heroku buildpack for rust.</p>
+<pre><code class="language-bash">heroku buildpacks:set emk/rust
+</code></pre>
+<p>Set the Rocket environment to production.</p>
+<pre><code class="language-bash">heroku config:set ROCKET_ENV=production
+</code></pre>
 <h1><a class="header" href="#-members" id="-members">🎓 Members</a></h1>
 <p>This is the list of all Members and their contact information.
 The list is sorted alphabetically by GitHub accounts.</p>
@@ -432,7 +490,7 @@ Creative Coding
 Video, Audio
 Talking about opinions</li>
 </ul>
-<h1><a class="header" href="#introduction-1" id="introduction-1">Introduction</a></h1>
+<h1><a class="header" href="#introduction-2" id="introduction-2">Introduction</a></h1>
 <p>Daniel works at the IOTA Foundation as Senior Architect in the Engineering department. In this role, Daniel is focused on hardening the security posture of the IOTA ecosystem and designing the next generation of wallets. His main project is an advanced system for protecting private keys and seeds.</p>
 <p>He is also a champion for open source and contributes to a number of projects, most notably as core-member of the open source project <a href="https://tauri.studio">Tauri</a>, which is a framework for building smaller, faster and more secure native applications using Rust and Webtech.</p>
 <h2><a class="header" href="#when-and-how-did-you-learn-rust" id="when-and-how-did-you-learn-rust">When and how did you learn Rust?</a></h2>
@@ -468,10 +526,10 @@ Talking about opinions</li>
         
 
         
-        
+
         
         <script type="text/javascript">
-            window.playpen_copyable = true;
+            window.playground_copyable = true;
         </script>
         
 
